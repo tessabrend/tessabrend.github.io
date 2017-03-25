@@ -1,0 +1,96 @@
+/* GLOBAL STYLES
+-----------------*/
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: url(../images/background-1.jpg) no-repeat fixed 50%;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+h1, h3 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-family: "Pacifico", cursive;
+}
+a {
+  color: #2980b9;
+}
+
+section,
+footer {
+  padding: 50px 0;
+}
+.content-wrap {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+/* HEADER
+----------*/
+header {
+  text-align: center;
+  padding: 100px 0;
+}
+header h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  text-transform: none;
+}
+header h2 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+
+/* ABOUT ME 
+----------------------*/
+.profile {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fefefe;
+}
+.profile img {
+  border-radius: 50%;
+}
+
+
+/* WORK EXPERIENCE
+-------------------*/
+.work {
+  background: #fefefe;
+}
+
+
+/* SKILLS
+----------*/
+.skills {
+
+}
+
+
+/* EDUCATION
+-------------*/
+.education {
+  background: #fefefe;
+}
+
+
+/* CONTACT & FOOTER 
+--------------------*/
+.contact {
+  background: #111111;
+  color: #fefefe;
+}
